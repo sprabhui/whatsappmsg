@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <script src="client.js"></script>
+    <title>WhatsApp Messaging</title>
+	 
+  </head>
+  
+  <body>
+    <form id="frmUploader" enctype="multipart/form-data" action="upload" method="post">
+        <center><h1>Send WhatsApp Message</h1>
+		<table><tr>
+		<td>To:</td><td><input type="text" name="to"/></td></tr>
+		<tr><td>Body:</td><td><input type="text" name="from"/></td></tr>
+        <tr><td>Attach Media:</td><td><input type="file" name="imgUploader" placeholder="Select file"/></td></tr>
+        <tr><td></td><td><input type="submit" name="submit" id="btnSubmit" value="Send" /> </td></tr>
+		</table></center>
+    </form>
+  </body>
+</html>
